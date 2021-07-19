@@ -1,0 +1,141 @@
+/*** Universal Styles ***/
+
+html, body {
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*** Header Section ***/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+header img{
+    height: 120px;
+
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+}
+
+ul {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+
+/*** Main Section ***/
+
+main {
+    font-family: 'Comic Neue', cursive;
+}
+
+
+/*** Mission Section ***/
+
+#mission {
+    background-image: url('./images/woman-back-lifting.jpeg');
+    background-size: cover;
+    min-height: 500px;
+    opacity: 0.6;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    font-size: 36px;
+}
+
+
+
+/*** About Us Section ***/
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(44, 42, 42);
+    color: white;
+}
+
+img {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+}
+
+
+.content {
+    z-index: 10;
+    text-align: center;
+  
+}
+
+.strength, .confidence, .mental-health, .community {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    min-width: 300px;
+}
+
+#about h2, #team h2 {
+    color: black;
+    font-size: 40px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/*** Meet the Team Section ***/
+
+figure {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*** Contact Us Section ***/
+
+#contact {
+    font-size: 20px;
+}
+
+/*** Footer Section ***/
+
+footer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 20px;
+}
